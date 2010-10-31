@@ -1,7 +1,7 @@
 c:\dev\Lingua\Lingua.Tests\bin\Debug\Lingua.Tests.dll
 c:\dev\Lingua\Lingua.Tests\bin\Debug\Lingua.Tests.pdb
+c:\dev\Lingua\Lingua.Tests\bin\Debug\Lingua.dll
+c:\dev\Lingua\Lingua.Tests\bin\Debug\Lingua.pdb
 c:\dev\Lingua\Lingua.Tests\obj\Debug\ResolveAssemblyReference.cache
 c:\dev\Lingua\Lingua.Tests\obj\Debug\Lingua.Tests.dll
 c:\dev\Lingua\Lingua.Tests\obj\Debug\Lingua.Tests.pdb
-c:\dev\Lingua\Lingua.Tests\bin\Debug\Lingua.dll
-c:\dev\Lingua\Lingua.Tests\bin\Debug\Lingua.pdb

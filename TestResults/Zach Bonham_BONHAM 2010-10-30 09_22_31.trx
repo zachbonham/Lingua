@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2a788eb2-7ef9-453c-908b-6f0712b65721" name="Zach Bonham@BONHAM 2010-10-30 09:22:31" runUser="BONHAM\Zach Bonham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="8a2b73f9-6de4-4b08-8105-5a53b4a27fc1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Zach Bonham_BONHAM 2010-10-30 09_22_31">
+      <DeploymentItem filename="c:\dev\Lingua\Lingua\bin\Debug\Lingua.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-10-30T09:22:31.8626299-05:00" queuing="2010-10-30T09:22:31.9065769-05:00" start="2010-10-30T09:22:32.2923339-05:00" finish="2010-10-30T09:22:33.3187405-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FileRepository_Should_CreateResourceFile" storage="c:\dev\lingua\lingua.tests\bin\debug\lingua.tests.dll" id="594c105f-0b54-8eab-fea4-df341d144577">
+      <Execution id="ba39f60c-d60d-4b18-b19e-aa90ba075934" />
+      <TestMethod codeBase="c:/dev/Lingua/Lingua.Tests/bin/Debug/Lingua.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Lingua.Tests.FileRepositoryTests, Lingua.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FileRepository_Should_CreateResourceFile" />
+    </UnitTest>
+    <UnitTest name="Should_WriteValueToResx" storage="c:\dev\lingua\lingua.tests\bin\debug\lingua.tests.dll" id="d7bd4fe0-5648-df1f-373e-dc841f7c4af8">
+      <Execution id="bb683af6-72cb-4f39-be0d-bf6b1129ab6d" />
+      <TestMethod codeBase="c:/dev/Lingua/Lingua.Tests/bin/Debug/Lingua.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Lingua.Tests.LinguaTests, Lingua.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_WriteValueToResx" />
+    </UnitTest>
+    <UnitTest name="Should_WriteUpdateValueToResx" storage="c:\dev\lingua\lingua.tests\bin\debug\lingua.tests.dll" id="e2a9c220-0da1-e08a-a96f-3ac3c859fca0">
+      <Execution id="b898122e-2e4e-4906-8105-7fe1f02ea2dd" />
+      <TestMethod codeBase="c:/dev/Lingua/Lingua.Tests/bin/Debug/Lingua.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Lingua.Tests.LinguaTests, Lingua.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_WriteUpdateValueToResx" />
+    </UnitTest>
+    <UnitTest name="Should_CreateResxFile" storage="c:\dev\lingua\lingua.tests\bin\debug\lingua.tests.dll" id="fe1f06f9-29c8-acaf-4eff-c94e0dccb888">
+      <Execution id="49ae7bf7-6d2e-4297-956c-0042f00a0d71" />
+      <TestMethod codeBase="c:/dev/Lingua/Lingua.Tests/bin/Debug/Lingua.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Lingua.Tests.LinguaTests, Lingua.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_CreateResxFile" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="594c105f-0b54-8eab-fea4-df341d144577" executionId="ba39f60c-d60d-4b18-b19e-aa90ba075934" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7bd4fe0-5648-df1f-373e-dc841f7c4af8" executionId="bb683af6-72cb-4f39-be0d-bf6b1129ab6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2a9c220-0da1-e08a-a96f-3ac3c859fca0" executionId="b898122e-2e4e-4906-8105-7fe1f02ea2dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe1f06f9-29c8-acaf-4eff-c94e0dccb888" executionId="49ae7bf7-6d2e-4297-956c-0042f00a0d71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ba39f60c-d60d-4b18-b19e-aa90ba075934" testId="594c105f-0b54-8eab-fea4-df341d144577" testName="FileRepository_Should_CreateResourceFile" computerName="BONHAM" duration="00:00:00.0343772" startTime="2010-10-30T09:22:32.5198817-05:00" endTime="2010-10-30T09:22:32.9691177-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba39f60c-d60d-4b18-b19e-aa90ba075934">
+    </UnitTestResult>
+    <UnitTestResult executionId="bb683af6-72cb-4f39-be0d-bf6b1129ab6d" testId="d7bd4fe0-5648-df1f-373e-dc841f7c4af8" testName="Should_WriteValueToResx" computerName="BONHAM" duration="00:00:00.0133187" startTime="2010-10-30T09:22:32.9788837-05:00" endTime="2010-10-30T09:22:33.0072051-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb683af6-72cb-4f39-be0d-bf6b1129ab6d">
+    </UnitTestResult>
+    <UnitTestResult executionId="b898122e-2e4e-4906-8105-7fe1f02ea2dd" testId="e2a9c220-0da1-e08a-a96f-3ac3c859fca0" testName="Should_WriteUpdateValueToResx" computerName="BONHAM" duration="00:00:00.0173315" startTime="2010-10-30T09:22:33.0150179-05:00" endTime="2010-10-30T09:22:33.0491989-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b898122e-2e4e-4906-8105-7fe1f02ea2dd">
+    </UnitTestResult>
+    <UnitTestResult executionId="49ae7bf7-6d2e-4297-956c-0042f00a0d71" testId="fe1f06f9-29c8-acaf-4eff-c94e0dccb888" testName="Should_CreateResxFile" computerName="BONHAM" duration="00:00:00.0064036" startTime="2010-10-30T09:22:33.0570117-05:00" endTime="2010-10-30T09:22:33.0794735-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49ae7bf7-6d2e-4297-956c-0042f00a0d71">
+    </UnitTestResult>
+  </Results>
+</TestRun>

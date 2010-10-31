@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d8af28c4-4b2c-417f-83ed-09d1f843a779" name="Zach Bonham@BONHAM 2010-10-30 09:15:08" runUser="BONHAM\Zach Bonham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="8a2b73f9-6de4-4b08-8105-5a53b4a27fc1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Zach Bonham_BONHAM 2010-10-30 09_15_08" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-10-30T09:15:08.2786237-05:00" queuing="2010-10-30T09:15:08.3255005-05:00" start="2010-10-30T09:15:08.4231605-05:00" finish="2010-10-30T09:15:09.4622629-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FileRepository_Should_CreateResourceFile" storage="c:\dev\lingua\lingua.tests\bin\debug\lingua.tests.dll" id="b3af927c-af89-dc19-1c3b-65bef846fd70">
+      <Execution id="898612c8-5138-4be0-9636-10a4931a35d9" />
+      <TestMethod codeBase="c:/dev/Lingua/Lingua.Tests/bin/Debug/Lingua.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Lingua.Tests.LinguaTests, Lingua.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FileRepository_Should_CreateResourceFile" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b3af927c-af89-dc19-1c3b-65bef846fd70" executionId="898612c8-5138-4be0-9636-10a4931a35d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="898612c8-5138-4be0-9636-10a4931a35d9" testId="b3af927c-af89-dc19-1c3b-65bef846fd70" testName="FileRepository_Should_CreateResourceFile" computerName="BONHAM" duration="00:00:00.0565074" startTime="2010-10-30T09:15:08.7698535-05:00" endTime="2010-10-30T09:15:09.2269023-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="898612c8-5138-4be0-9636-10a4931a35d9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at Lingua.Tests.LinguaTests.FileRepository_Should_CreateResourceFile() in c:\dev\Lingua\Lingua.Tests\LinguaTests.cs:line 129
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

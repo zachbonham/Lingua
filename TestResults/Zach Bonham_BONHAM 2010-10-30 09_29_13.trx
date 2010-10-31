@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5945943c-c3b1-4069-b4a5-eef58db72d19" name="Zach Bonham@BONHAM 2010-10-30 09:29:13" runUser="BONHAM\Zach Bonham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="8a2b73f9-6de4-4b08-8105-5a53b4a27fc1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Zach Bonham_BONHAM 2010-10-30 09_29_13">
+      <DeploymentItem filename="c:\dev\Lingua\Lingua\bin\Debug\Lingua.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-10-30T09:29:13.9623380-05:00" queuing="2010-10-30T09:29:14.0092148-05:00" start="2010-10-30T09:29:14.3246566-05:00" finish="2010-10-30T09:29:15.9585084-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FileRepository_Should_NotOverwriteExistingResx" storage="c:\dev\lingua\lingua.tests\bin\debug\lingua.tests.dll" id="c3da0799-2937-267f-6247-a0bd8cf3a545">
+      <Execution id="d3d92e5a-fcfa-42d7-8eb8-0c0ff819ee5d" />
+      <TestMethod codeBase="c:/dev/Lingua/Lingua.Tests/bin/Debug/Lingua.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Lingua.Tests.FileRepositoryTests, Lingua.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FileRepository_Should_NotOverwriteExistingResx" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c3da0799-2937-267f-6247-a0bd8cf3a545" executionId="d3d92e5a-fcfa-42d7-8eb8-0c0ff819ee5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d3d92e5a-fcfa-42d7-8eb8-0c0ff819ee5d" testId="c3da0799-2937-267f-6247-a0bd8cf3a545" testName="FileRepository_Should_NotOverwriteExistingResx" computerName="BONHAM" duration="00:00:00.5882901" startTime="2010-10-30T09:29:14.5482980-05:00" endTime="2010-10-30T09:29:15.4692318-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3d92e5a-fcfa-42d7-8eb8-0c0ff819ee5d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Lingua.Tests.FileRepositoryTests.FileRepository_Should_NotOverwriteExistingResx threw exception: 
+System.IO.IOException: File already exists: c:\dev\Lingua\TestResults\Zach Bonham_BONHAM 2010-10-30 09_29_13\Out\MyView.en-US.resx</Message>
+          <StackTrace>    at Lingua.FileResourceRepository.NewResource(String entity, String key, String data, String culture) in c:\dev\Lingua\Lingua\FileRepository.cs:line 33
+   at Lingua.Tests.FileRepositoryTests.FileRepository_Should_NotOverwriteExistingResx() in c:\dev\Lingua\Lingua.Tests\FileRepositoryTests.cs:line 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

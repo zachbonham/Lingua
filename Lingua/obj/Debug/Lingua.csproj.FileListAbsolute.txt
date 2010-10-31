@@ -1,0 +1,5 @@
+c:\dev\Lingua\Lingua\bin\Debug\Lingua.dll
+c:\dev\Lingua\Lingua\bin\Debug\Lingua.pdb
+c:\dev\Lingua\Lingua\obj\Debug\ResolveAssemblyReference.cache
+c:\dev\Lingua\Lingua\obj\Debug\Lingua.dll
+c:\dev\Lingua\Lingua\obj\Debug\Lingua.pdb

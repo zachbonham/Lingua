@@ -50,7 +50,15 @@ namespace Lingua
 
         }
 
-        public string New(string entity, string key, string data, string culture)
+        /// <summary>
+        /// TODO - Refactor into just creating the resource 'MyResource'.  AddItem will handle the key/value pairs.
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <param name="key"></param>
+        /// <param name="data"></param>
+        /// <param name="culture"></param>
+        /// <returns></returns>
+        public string New(string entity, string culture)
         {
 
             var filename = GetResourceFilename(entity, culture);
@@ -64,10 +72,8 @@ namespace Lingua
 
             using (var writer = new ResourceWriter(filename))
             {
-                writer.AddResource(key, data);
                 writer.Generate();
             }
-
             return filename;
         }
 
@@ -83,6 +89,24 @@ namespace Lingua
 
         public void Rename(string entity, string key, string newKey)
         {
+        }
+
+
+        public void AddItem(string entity, string key, string value, string culture)
+        {
+            var filename = GetResourceFilename(entity, culture);
+
+            using (var writer = new ResourceWriter(filename))
+            {
+                writer.AddResource(key, value);
+                writer.Generate();
+            }
+
+        }
+
+        public void DeleteItem(string key)
+        {
+            throw new NotImplementedException();
         }
     }
 }
